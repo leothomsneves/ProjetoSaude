@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Projeto Saúde"
+        android:gravity="center"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAZER LOGIN"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF"
+        android:layout_marginTop="40dp"/>-->
+
+    <EditText
+        android:id="@+id/edtCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira seu CPF"
+        android:inputType="text"
+        />
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:layout_marginTop="40dp"/>-->
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira sua senha"
+        android:inputType="text"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/swtLogado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se manter conectado?"
+        android:layout_marginTop="10dp"
+        android:gravity="end"/>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem acesso? Cadastre-se"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+    <!--<Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>-->
+
+</LinearLayout>
+
